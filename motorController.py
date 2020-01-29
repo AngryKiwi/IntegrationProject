@@ -26,7 +26,7 @@ pwm2=GPIO.PWM(en2,1000)
 pwm.start(25)
 pwm2.start(25)
 print("\n")
-print("s-stop f-forward b-backward l-low m-medium h-high e-exit")
+print("s-stop f-forward b-backward tlf - turnleftforward trf - turnrightforward l-low m-medium h-high e-exit")
 print("\n")    
 
 while(1):
